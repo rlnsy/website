@@ -1,0 +1,65 @@
+theme = "goa"
+
+## Basic Configuration
+
+baseurl = "https://rowanlindsay.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Rowan Lindsay"
+title = "Rowan Lindsay"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Rowan Lindsay"
+intro = "Student | Tech. Enthusiast"
+description = ""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = ""
+keywords = "software,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "rlnsy"
+linkedin = "rowan-lindsay"
+email = "rowan@rowanlindsay.com"
+
+## Extras
+[params.extra]
+copyright = "© 2021. Rowan Lindsay. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+#[[menu.main]]
+#    name = "blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog/"
+#[[menu.main]]
+#    name = "about"
+#    identifier = "about"
+#    weight = 200
+#    url = "/about/"
+#[[menu.main]]
+#    name = "coderag"
+#    identifier = "coderag"
+#    weight = 300
+#    url = "/coderag/"
