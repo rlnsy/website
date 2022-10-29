@@ -1,4 +1,4 @@
-theme = "goa"
+theme = "KeepIt"
 
 ## Basic Configuration
 
@@ -22,9 +22,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Rowan Lindsay"
-intro = "Student | Tech. Enthusiast"
 description = ""
-authorimage = "headshot.jpg"
+avatar = "/img/headshot.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
